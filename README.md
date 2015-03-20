@@ -2,6 +2,9 @@
 
 Provides CountingWriter which counts the number of bytes passing through it
 
+### Install
+    go get github.com/shoenig/counting
+
 ### Example
 
     package main
