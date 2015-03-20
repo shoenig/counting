@@ -1,7 +1,7 @@
 // Author seth.a.hoenig@gmail.com
 // License MIT
 
-// Package counting provides a writer that counts
+// Package counting provides an io.Writer that passively counts bytes.
 package counting
 
 import (
