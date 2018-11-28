@@ -13,7 +13,7 @@ func Test_WriteCompressed(t *testing.T) {
 	f, e := ioutil.TempFile("", "counting-")
 
 	if e != nil {
-		t.Fatalf("create tempfile failed", e)
+		t.Fatal("create tempfile failed", e)
 	}
 
 	counter := NewCountingWriter(f)
