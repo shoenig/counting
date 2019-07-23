@@ -1,8 +1,5 @@
-// Author seth.a.hoenig@gmail.com
-// License MIT
-
 // Package counting provides an io.Writer that passively counts bytes.
-package counting
+package counting // import "gophers.dev/pkgs/counting"
 
 import (
 	"io"
